@@ -8,8 +8,8 @@ a {
 }
 
 .container {
-  margin: 120px auto;
-  max-width: 600px;
+  margin: auto;
+  max-width: auto;
 }
 
 header {
@@ -60,6 +60,10 @@ form {
   font-weight: 400px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
+}
+
+.recipe strong {
+  color: darkgreen;
 }
 footer {
   text-align: center;
