@@ -3,48 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <title>AI Cake Recipe Genarator</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>AI Romanian Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Cake Recipe Genarator</h1>
+        <h1>AI Romanian Poem Generator</h1>
       </header>
 
       <main>
-        <form id="Cake-Recipe-Generator-Form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the cake recipe "
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-
-        <div class="recipe" id="recipe"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of a Romanian Poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Cats, Water or Castels</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
-        This AI projectwas coded by
+        This AI project was coded by
         <a href="https://github.com/dcolef15" target="_blank">Diana Colef</a>
         and is
         <a
-          href="https://github.com/dcolef15/Cake-Recipe-Generator/tree/main"
+          href="hhttps://github.com/dcolef15/Romanian-Peom-Generator"
           target="_blank"
         >
-          opened-sourced on Github
-        </a>
-        and is
-        <a href="https://ai-cake-recipe-genarator.netlify.app/" target="_blank">
-          hosted on Netlify.</a
+          open-sourced on GitHub</a
         >
+        and is
+        <a
+          href="https://ai-romanian-poem-genarator.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
+        >.
       </footer>
     </div>
 
