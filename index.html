@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Cake Recipe Genarator</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="Cake-Recipe-Generator-Form">
           <input
             type="text"
             placeholder="Enter the topic of the cake recipe "
@@ -25,12 +26,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="recipe">
-          Triple Chocolate Cake
-          <br />
-          Key Chocolate Cake Ingredients: (list of ingredients and how to make
-          it will be below.)
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
 
       <footer>
